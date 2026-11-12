@@ -2,7 +2,8 @@
 
 Aplicação web em PHP para: organizar tutores, pets e consultas de uma clínica veterinária.
 
-## Tecnologia/Estrutura Usada:
+## Tecnologia/Estrutura u
+ada:
 
 - PHP 8.5.9
 - Composer 2.10.2
