@@ -26,7 +26,7 @@ final class AuthGuard {
     }
 
     private static function sessaoExpirada(): bool {
-        $arquivoConfig = dirname(__DIR__, 2) . '/config/database.ini';
+        $arquivoConfig = dirname(__DIR__, 2) . '/Config/database.ini';
         if (!is_file($arquivoConfig)) {
             return false;
         }

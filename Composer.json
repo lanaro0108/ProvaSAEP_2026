@@ -7,7 +7,12 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
-        }
+            "App\\": "Sistema/Src/"
+        },
+        "classmap": [
+            "Sistema/Src/Controller",
+            "Sistema/Src/Model",
+            "Sistema/Src/Core"
+        ]
     }
 }

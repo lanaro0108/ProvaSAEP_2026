@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Models;
+namespace App\Model;
 
 use App\Core\ConexaoBanco;
 use PDO;
@@ -9,7 +9,7 @@ use PDO;
 //  Model para busca e autenticacao de usuarios.
 final class Usuario {
     private static function pdo(): PDO {
-        $cfg = dirname(__DIR__, 2) . '/config/database.ini';
+        $cfg = dirname(__DIR__, 2) . '/Config/database.ini';
         return ConexaoBanco::obterConexao($cfg);
     }
 

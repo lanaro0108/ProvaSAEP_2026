@@ -8,7 +8,7 @@ use RuntimeException;
 final class Criptografia {
     // Classe para criptografia do CPF
      private static function obterChave(): string {
-        $cfg = parse_ini_file(dirname(__DIR__, 2) . '/config/database.ini', true);
+        $cfg = parse_ini_file(dirname(__DIR__, 2) . '/Config/database.ini', true);
         $chaveConfigurada = trim((string)($cfg['security']['app_key'] ?? ''));
         if ($chaveConfigurada === '') {
             throw new RuntimeException('Configure security.app_key antes de processar CPFs.');
