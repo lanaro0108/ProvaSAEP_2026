@@ -1,0 +1,13 @@
+{
+    "name": "gestaovet/clinica-mvc",
+    "description": "Sistema de gestão de uma clínica veterinária",
+    "type": "project",
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
